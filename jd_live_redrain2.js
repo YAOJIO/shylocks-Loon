@@ -44,7 +44,8 @@ if ($.isNode()) {
 }
 const JD_API_HOST = 'https://api.m.jd.com/api';
 let ids = {
-  '20': 'RRA3b7VFEeTmjy2tK2BPySVEqNeeTdA'
+  '20': 'RRA3b7VFEeTmjy2tK2BPySVEqNeeTdA',
+  '21': 'RRA2eQJiEhyy1WPx95M3QusCXkLstjw'
 }
 !(async () => {
   if (!cookiesArr[0]) {
@@ -162,11 +163,11 @@ function receiveRedRain() {
             if (data.subCode === '0') {
               console.log(`领取成功，获得${JSON.stringify(data.lotteryResult)}`)
               // message+= `领取成功，获得${JSON.stringify(data.lotteryResult)}\n`
-              message += `${data.lotteryResult.jPeasList[0].ext}:${(data.lotteryResult.jPeasList[0].quantity)}京豆\n`
+              message += `领取成功，获得 ${(data.lotteryResult.jPeasList[0].quantity)} 京豆`
 
             } else if (data.subCode === '8') {
               console.log(`今日次数已满`)
-              message += `领取失败，今日已签到\n`;
+              message += `领取失败，本场已领取`;
             } else {
               console.log(`异常：${JSON.stringify(data)}`)
             }
