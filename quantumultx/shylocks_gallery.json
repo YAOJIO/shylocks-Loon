@@ -6,7 +6,7 @@
       "config": "1 8,9 14-31/1 1 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js, tag=宝洁美发屋, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_bj.jpg, enabled=true"
     },
     {
-      "config": "30 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js, tag=工业品爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_gyec.jpg, enabled=true"
+      "config": "20 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js, tag=工业品爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_gyec.jpg, enabled=true"
     },
     {
       "config": "0,1 19-21/1 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js, tag=直播间红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_live_redrain.jpg, enabled=true"
@@ -20,6 +20,9 @@
     {
       "config": "10 0 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js, tag=京东粉丝专享, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_wechat_sign.jpg, enabled=true",
       "addons": "https://raw.githubusercontent.com/shylocks/Loon/main/quantumultx/jd_wechat_sign.qxrewrite, tag=jd_wechat_sign_COOKIE"
+    },
+    {
+      "config": "0 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_xxl.js, tag=东东爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_xxl.jpg, enabled=true"
     },
   ]
 }
